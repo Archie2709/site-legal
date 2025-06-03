@@ -21,5 +21,5 @@ from sobre import urls
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("sobre/", include('sobre.urls')),
+    path("", include('sobre.urls')),
 ]
